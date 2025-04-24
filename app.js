@@ -97,3 +97,21 @@ let nombres=["ana","pablo","carlos"]
     */
 
     let numeros=[45,33,14,23,20,4,7,12,68,3]
+
+    let contP=0
+
+    function es_par(num){
+        if(num %2==0)
+            return true
+        return false 
+    }
+
+    for(let i=0;i<numeros.length;i++){
+        if(es_par(numeros[i]))
+            contP++
+    }
+
+    console.log("los pares son",contP)
+
+    //modifique el ejercicio para mostrar la 
+    //cantidad de impares 
